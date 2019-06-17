@@ -36,3 +36,4 @@
 *.color15:      #c5c8c6
 
 URxvt*font: xft:mononoki:size=10:antialias=true
+URxvt*scrollBar: False
