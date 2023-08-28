@@ -1,0 +1,5 @@
+[user]
+	email = routsongrm@nih.gov
+	name = Ryan Routsong
+[core]
+	excludesfile = /home/routsongrm/.gitignore

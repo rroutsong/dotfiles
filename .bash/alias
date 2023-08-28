@@ -1,0 +1,6 @@
+# easy command aliases
+alias ls='ls --color'
+alias ll='ls -al --color=always' # add colors and file type extensions
+alias psu='ps -fu $USER'
+alias scratchnode='sinteractive -N 1 -n 1 --mem=8gb --gres=lscratch:500 --cpus-per-task=2'
+alias myjobs='squeue -u $USER'

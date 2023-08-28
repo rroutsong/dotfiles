@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/6rr/UT/kb-utils/VariationUtil/ui/narrative/methods/import_variation_from_vcf'
-let g:netrw_dirhist_2='/Users/6rr/UT/kb-traits/snp2gene/lib/snp2gene'
-let g:netrw_dirhist_3='/Users/6rr/UT/kb-traits/snp2gene/lib/snp2gene/Utils'
-let g:netrw_dirhist_4='/Users/6rr/UT/kb-traits/snp2gene/lib/snp2gene'
-let g:netrw_dirhist_5='/Users/6rr/UT/kb-traits/snp2gene/lib/snp2gene/Utils'
-let g:netrw_dirhist_6='/Users/6rr/GEMMA/vcf-parser/data/gatk_wgs_bimbam'
