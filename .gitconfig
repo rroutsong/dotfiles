@@ -4,4 +4,4 @@
 [core]
 	excludesfile = /home/routsongrm/.gitignore
 [credential]
-	helper = cache --timeout=63120000
+	helper = cache --timeout=7776000
