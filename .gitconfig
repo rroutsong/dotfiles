@@ -3,3 +3,5 @@
 	name = Ryan Routsong
 [core]
 	excludesfile = /home/routsongrm/.gitignore
+[credential]
+	helper = cache --timeout=63120000
