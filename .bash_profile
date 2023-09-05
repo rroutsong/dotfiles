@@ -1,23 +1,12 @@
 # .bash_profile
-# If not running interactively, don't do anything and return early
-[[ $- == *i* ]] || return  
-
-# locale
-export LC_ALL="en_US.UTF-8"
+# User specific environment and startup programs
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$HOME/.local/bin:$HOME/bin:$PATH"
+eval "$($PYENV_ROOT/bin/pyenv init -)t"
 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
-# User specific environment and startup programs
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-# Restart your shell for the changes to take effect.
-
-# Load pyenv-virtualenv automatically by adding
-# the following to ~/.bashrc:
-
-eval "$(pyenv virtualenv-init -)"
+export PATH
