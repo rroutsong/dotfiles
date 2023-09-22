@@ -127,6 +127,9 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:$PYENV_ROOT/bin:$(brew --prefix py
 # docker default platform
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
+# aliases
+source ~/.bash/alias
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PIPENV_PYTHON="$PYENV_ROOT/shims/python"
